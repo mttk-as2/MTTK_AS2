@@ -15,9 +15,9 @@ MTTK_AS2 has perfect system monitoring and error tracking, and MTTK_AS2 mapping 
 MTTK_AS2 is equipped with the corresponding MTTK_AS2_CLOUD Cloud system. You can use MTTK_AS2 to register with CLOUD. After registering with Cloud, you can enjoy deployment mapping (format conversion tool), configuration backup, after-sales support and other services.。
 
 
-- [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
+- [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_EN.pdf)
 
-- [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
+- [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_EN.pdf)
 
 - [Discussion](https://github.com/mttk-as2/MTTK_AS2/issues)
 
@@ -114,12 +114,12 @@ git clone https://github.com/mttk-as2/MTTK_AS2.git
 # Unzip the FULL installation package [\MTTK_AS2\less\LESS.rar]
 
 ```
-Please refer to for details [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
+Please refer to for details [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_EN.pdf)
 
 ## Other
 
 
-Please refer to for more information [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
+Please refer to for more information [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_EN.pdf)
 
 ## Browsers support
 
