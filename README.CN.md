@@ -6,27 +6,27 @@
   
 </p>
 
- English  |  [简体中文](./README.md)
+ [English](./README.EN.md)  |  简体中文  
 
-## Introduction
+## 简介
 
-[MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2) is a java software system that follows AS2 protocol to realize message sending and receiving. Certificates, partner AS2 information and local AS2 information can be flexibly configured in the system.
-MTTK_AS2 has perfect system monitoring and error tracking, and MTTK_AS2 mapping module supports converting any data format into any data format (for example, xml to json/xml to edi/json to edi/edi to json, etc.).
-MTTK_AS2 is equipped with the corresponding MTTK_AS2_CLOUD Cloud system. You can use MTTK_AS2 to register with CLOUD. After registering with Cloud, you can enjoy deployment mapping (format conversion tool), configuration backup, after-sales support and other services.。
+[MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2) 是一个遵循AS2协议来实现报文收发的 java 软件系统。 系统中可以灵活配置证书、合作伙伴AS2信息、本地AS2信息等。
+MTTK_AS2拥有完善的系统监控和错误追踪，MTTK_AS2 映射模块支持任意数据格式转换成任意数据格式(例如：xml转json/xml转edi/json转edi/edi转json 等)。
+MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 向CLOUD 注册，注册Cloud 后可享受 部署映射（格式转换工具） 、配置备份、售后支持等服务。
 
 
-- [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
+- [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 
-- [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
+- [使用文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
 
-- [Discussion](https://github.com/mttk-as2/MTTK_AS2/issues)
+- [讨论组](https://github.com/mttk-as2/MTTK_AS2/issues)
 
-- Contact email：[as2@mttk.com.cn]
+- 联系邮箱：[as2@mttk.com.cn]
 
-## Preparation
-MTTK_AS2 is developed by java and stored by mongDB, which means that you may need to have a general understanding of both.  
+## 前序准备
+MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解。
 
-**System screenshot**  
+**系统截图**  
 
 <p align="center">
   <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/main.png">
@@ -40,86 +40,86 @@ MTTK_AS2 is developed by java and stored by mongDB, which means that you may nee
   <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtimeDetail.png">
 </p>
 
-**Installation package**
+**安装包**
 
-Considering that the installation system needs certain technical ability to configure jdk and mongoDB, we divide the installation program into two different types of installation packages    
+考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-Installation package containing jdk and mongoDB running environment (only applicable to 64-bit windows)
+包含jdk和mongoDB运行环境的安装包  (只适用于64位windows)
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
-The basic installation package of jdk and mongoDB running environment is not included (this installation package needs to install jdk and mongoDB running environment by itself)
+不包含jdk和mongoDB运行环境的基础安装包 (此安装包需要自己安装jdk和mongoDB 运行环境)
 
 
-## Features
+## 功能
 
 ```
-- login / loginOut
+- 登录 / 注销
 
-- Monitor
-  - Dashboard
-  - Transaction
-  - Alert
-  - System log
+- 业务监控
+  - 仪表盘
+  - 业务数据
+  - 异常报警
+  - 系统日志
 
-- Daily Config
-  - Partner
-  - Local
-  - Certificate
-  - Sequence
+- 日常配置
+  - 合作伙伴配置
+  - 本地配置
+  - 证书管理
+  - 自增序号
 
-- Utility
-  - System settings
-  - User management
-  - Config migration
-  - User settings
-  - About
+- 实用工具
+  - 系统设置
+  - 用户管理
+  - 配置迁移
+  - 用户设置
+  - 关于
 
-- Mttk Cloud
-  - Account
-  - Mapping
-  - Backup
-  - After sales
+- cloud云管理
+  - 账号管理
+  - 映射管理
+  - 备份管理
+  - 售后管理
 ```
 
-## FULL package installation
+## FULL包安装
 
 ```bash
-# Clone project
+# 克隆项目
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# Unzip the FULL installation package [\MTTK_AS2\full\FULL.rar]
+# 解压FULL安装包 [\MTTK_AS2\full\FULL.rar]
 
-# After decompression, enter the decompressed bin directory [\mttk_as2\work\bin]
+# 解压后，进入解压后的bin目录 [\mttk_as2\work\bin]
 
-# Running mongoDB environment
+# 运行mongoDB环境
 mongoStartup.bat
 
-# Windows service mode runs mongoDB environment
+# windows 服务方式运行mongoDB环境
 mongoInstallService.bat
 
-# Start the MTTK_AS2 service
+# 启动MTTK_AS2服务
 startup.bat
 ```
 
-Browser access http://localhost:5555
+浏览器访问 http://localhost:5555
 
-## LESS package installation
+## LESS包安装
 
 
 ```bash
-# Clone project
+# 克隆项目
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# Unzip the FULL installation package [\MTTK_AS2\less\LESS.rar]
+# 解压项目目录 [\MTTK_AS2\less\LESS.rar]
 
 ```
-Please refer to for details [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
+详情请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 
-## Other
+## 其它
 
 
-Please refer to for more information [Use doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
+更多信息请参考 [使用文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
 
 ## Browsers support
 
