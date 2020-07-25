@@ -29,15 +29,15 @@ MTTK_AS2 is developed by java and stored by mongDB, which means that you may nee
 **System screenshot**  
 
 <p align="center">
-  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/main.png">
+  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/main_en.png">
 </p>
 
 <p align="center">
-  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtime.png">
+  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtime_en.png">
 </p>
 
 <p align="center">
-  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtimeDetail.png">
+  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtimeDetail_en.png">
 </p>
 
 **Installation package**
