@@ -47,7 +47,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-包含jdk和mongoDB运行环境的安装包  (只适用于64位windows) **因为FULL包含有所有的运行环境，所以包比较大。而gitee单个文件最大只允许100M,所以我们把完整的压缩文件分成了4个，请下载全部的4个压缩文件后一起解压**
+包含jdk和mongoDB运行环境的安装包  (只适用于64位windows) **因为FULL包含有所有的运行环境，所以包比较大。而github 单个文件最大只允许100M,所以我们把完整的压缩文件分成了4个，请下载全部的4个压缩文件后一起解压**
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
 不包含jdk和mongoDB运行环境的基础安装包 (此安装包需要自己安装jdk和mongoDB 运行环境)
