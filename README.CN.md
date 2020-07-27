@@ -90,7 +90,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 # 克隆项目
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# 解压FULL安装包 [\MTTK_AS2\full\FULL.rar]
+# 解压FULL安装包 [\MTTK_AS2\full\FULL01.rar and FULL02.rar and FULL03.rar and FULL04.rar]
 
 # 解压后，进入解压后的bin目录 [\mttk_as2\work\bin]
 
