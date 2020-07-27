@@ -24,7 +24,9 @@ MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 
 - 联系邮箱：[as2@mttk.com.cn]
 
 ## 前序准备
-MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解。
+MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解。  
+
+**如果GitHub访问太慢，可以移步国内开源社区 [码云：https://gitee.com/mttk-as2/MTTK_AS2](https://gitee.com/mttk-as2/MTTK_AS2)**
 
 **系统截图**  
 
@@ -45,7 +47,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-包含jdk和mongoDB运行环境的安装包  (只适用于64位windows)
+包含jdk和mongoDB运行环境的安装包  (只适用于64位windows) **因为FULL包含有所有的运行环境，所以包比较大。而gitee单个文件最大只允许100M,所以我们把完整的压缩文件分成了4个，请下载全部的4个压缩文件后一起解压**
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
 不包含jdk和mongoDB运行环境的基础安装包 (此安装包需要自己安装jdk和mongoDB 运行环境)
@@ -120,6 +122,12 @@ git clone https://github.com/mttk-as2/MTTK_AS2.git
 
 
 更多信息请参考 [使用文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
+
+## 更多开源地址
+
+- [GitHub：https://github.com/mttk-as2/MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2)
+
+- [码云：https://gitee.com/mttk-as2/MTTK_AS2](https://gitee.com/mttk-as2/MTTK_AS2)
 
 ## Browsers support
 
