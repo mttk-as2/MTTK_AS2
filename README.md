@@ -88,7 +88,7 @@ The basic installation package of jdk and mongoDB running environment is not inc
 # Clone project
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# Unzip the FULL installation package [\MTTK_AS2\full\FULL.rar]
+# Unzip the FULL installation package [\MTTK_AS2\full\FULL01.rar and FULL02.rar and FULL03.rar and FULL04.rar]
 
 # After decompression, enter the decompressed bin directory [\mttk_as2\work\bin]
 
