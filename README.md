@@ -45,7 +45,7 @@ MTTK_AS2 is developed by java and stored by mongDB, which means that you may nee
 Considering that the installation system needs certain technical ability to configure jdk and mongoDB, we divide the installation program into two different types of installation packages    
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-Installation package containing jdk and mongoDB running environment (only applicable to 64-bit windows) **Because FULL contains all the running environments, the package is relatively large. However, gitee can only allow a single file up to 100M, so we divide the complete compressed file into four. Please download all four compressed files and decompress them together**
+Installation package containing jdk and mongoDB running environment (only applicable to 64-bit windows) **Because FULL contains all the running environments, the package is relatively large. However, github can only allow a single file up to 100M, so we divide the complete compressed file into four. Please download all four compressed files and decompress them together**
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
 The basic installation package of jdk and mongoDB running environment is not included (this installation package needs to install jdk and mongoDB running environment by itself)
@@ -123,9 +123,9 @@ Please refer to for more information [Use doc](https://github.com/mttk-as2/MTTK_
 
 ## More open source addresses
 
-- [GitHub:https：//github.com/mttk-as2/MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2)
+- [GitHub：https://github.com/mttk-as2/MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2)
 
-- [Gitee:https：//gitee.com/mttk-as2/MTTK_AS2](https://gitee.com/mttk-as2/MTTK_AS2)
+- [Gitee：https://gitee.com/mttk-as2/MTTK_AS2](https://gitee.com/mttk-as2/MTTK_AS2)
 
 ## Browsers support
 
