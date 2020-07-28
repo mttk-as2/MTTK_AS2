@@ -23,6 +23,21 @@ MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 
 
 - 联系邮箱：[as2@mttk.com.cn]
 
+## 系统特征
+- [AS2]  |  [RFC4130]  |  [EDI]  |  [ANSI X12]  |  [EDIFACT]
+
+- web管理界面灵活配置合作伙伴
+
+- 支持界面生成和配置证书
+
+- 支持各类AS2加密协调、AS2压缩
+
+- 支持同步MDN、异步MDN
+
+- 支持记录传输报文，以及完整的AS2 message
+
+- 支持运行监控和错误追踪
+
 ## 前序准备
 MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解。  
 
