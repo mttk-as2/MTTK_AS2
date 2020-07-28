@@ -23,6 +23,21 @@ MTTK_AS2 is equipped with the corresponding MTTK_AS2_CLOUD Cloud system. You can
 
 - Contact email：[as2@mttk.com.cn]
 
+## system characteristics
+- [AS2] | [RFC4130] | [EDI] | [ANSI X12] | [EDIFACT]
+
+- web management interface flexibly configures partners
+
+- Support interface to generate and configure certificates
+
+- Support various AS2 encryption coordination and AS2 compression
+
+- Support synchronous MDN and asynchronous MDN
+
+- Support recording transmission messages and complete AS2 message
+
+- Support operation monitoring and error tracking
+
 ## Preparation
 MTTK_AS2 is developed by java and stored by mongDB, which means that you may need to have a general understanding of both.  
 
