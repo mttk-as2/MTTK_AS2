@@ -117,7 +117,7 @@ mongoInstallService.bat
 startup.bat
 ```
 
-Browser access http://localhost:5555
+Browser access http://localhost:5555   default user：admin   password：123456
 
 ## LESS package installation
 
