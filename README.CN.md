@@ -120,7 +120,8 @@ startup.bat
 ```
 
 浏览器访问 http://localhost:5555
-
+默认登录用户： **admin**  
+默认登录密码： **123456**
 ## LESS包安装
 
 
