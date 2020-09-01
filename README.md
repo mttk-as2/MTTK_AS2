@@ -118,8 +118,8 @@ startup.bat
 ```
 
 Browser access http://localhost:5555   
-defaultUser：##admin
-defaultPassword：##123456
+defaultUser：## admin
+defaultPassword：## 123456
 
 ## LESS package installation
 
