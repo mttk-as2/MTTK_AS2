@@ -100,8 +100,8 @@ The basic installation package of jdk and mongoDB running environment is not inc
 ## FULL package installation
 
 ```bash
-# Clone project
-git clone https://github.com/mttk-as2/MTTK_AS2.git
+# Download installation package
+# Decompress all four packages
 
 # Unzip the FULL installation package [\MTTK_AS2\full\FULL01.rar and FULL02.rar and FULL03.rar and FULL04.rar]
 
@@ -125,8 +125,8 @@ Default password： **123456**
 
 
 ```bash
-# Clone project
-git clone https://github.com/mttk-as2/MTTK_AS2.git
+# Download installation package
+# Decompress all four packages
 
 # Unzip the FULL installation package [\MTTK_AS2\less\LESS.rar]
 
