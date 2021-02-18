@@ -125,7 +125,7 @@ Default password： **123456**
 
 ```bash
 # Download installation package
-# Enter the / full directory
+# Enter the / less directory
 
 ```
 Please refer to for details [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_EN.pdf)
