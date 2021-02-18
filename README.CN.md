@@ -105,6 +105,8 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 # 下载安装包
 # 进入/full 目录下
 
+# 进入bin目录  [\mttk_as2\work\bin]
+
 # 运行mongoDB环境
 mongoStartup.bat
 
