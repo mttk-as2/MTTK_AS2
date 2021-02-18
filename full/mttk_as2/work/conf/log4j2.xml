@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<Configuration status="INFO">  
+    <Appenders>  
+        <Console name="Console" target="SYSTEM_OUT" follow="true">  
+            <PatternLayout>  
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} |-%-5level [%thread] %c [%L] -| %msg%n</pattern>  
+            </PatternLayout>  
+        </Console>  
+		
+		<RollingFile name="RollingFile" fileName="${sys:server.home}/log/s-${sys:server.instance.id}.log"
+			filePattern="${sys:server.home}/log/$${date:yyyy-MM-dd}/s-${sys:server.instance.id}-%d{yyyy-MM-dd}-%i.log">
+		
+			 <!--
+				<RollingFile name="RollingFile" fileName="/sharedata/log/s-${sys:server.instance.id}.log"
+			filePattern="/sharedata/log/$${date:yyyy-MM-dd}/s-${sys:server.instance.id}-%d{yyyy-MM-dd}-%i.log">
+				-->
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->        
+             <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+             <PatternLayout charset="UTF-8" pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} |-%-5level [%thread] %c [%L] -| %msg%n"/>
+             <Policies>
+                 <TimeBasedTriggeringPolicy/>
+                 <SizeBasedTriggeringPolicy size="100 MB"/>
+             </Policies>
+        </RollingFile>
+    </Appenders>  
+    <Loggers>  
+		<Logger name="com.novemberain.quartz.mongodb" level="error">
+		    <AppenderRef ref="Console" />  
+            <AppenderRef ref="RollingFile" /> 
+		</Logger>
+		<Logger name="org.mongodb.driver.connection" level="error">
+		    <AppenderRef ref="Console" />  
+            <AppenderRef ref="RollingFile" /> 
+		</Logger>
+        <Root level="info">  
+            <AppenderRef ref="Console" />  
+             <AppenderRef ref="RollingFile" /> 
+        </Root>  
+    </Loggers>  
+</Configuration>  
