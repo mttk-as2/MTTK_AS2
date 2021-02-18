@@ -60,7 +60,7 @@ MTTK_AS2 is developed by java and stored by mongDB, which means that you may nee
 Considering that the installation system needs certain technical ability to configure jdk and mongoDB, we divide the installation program into two different types of installation packages    
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-Installation package containing jdk and mongoDB running environment (only applicable to 64-bit windows) **Because FULL contains all the running environments, the package is relatively large. However, github can only allow a single file up to 100M, so we divide the complete compressed file into four. Please download all four compressed files and decompress them together**
+Installation package containing jdk and mongoDB running environment (only applicable to 64-bit windows) 
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
 The basic installation package of jdk and mongoDB running environment is not included (this installation package needs to install jdk and mongoDB running environment by itself)
@@ -101,9 +101,8 @@ The basic installation package of jdk and mongoDB running environment is not inc
 
 ```bash
 # Download installation package
-# Decompress all four packages
 
-# Unzip the FULL installation package [\MTTK_AS2\full\FULL01.rar and FULL02.rar and FULL03.rar and FULL04.rar]
+# Enter the / full directory
 
 # After decompression, enter the decompressed bin directory [\mttk_as2\work\bin]
 
@@ -126,9 +125,7 @@ Default password： **123456**
 
 ```bash
 # Download installation package
-# Decompress all four packages
-
-# Unzip the FULL installation package [\MTTK_AS2\less\LESS.rar]
+# Enter the / full directory
 
 ```
 Please refer to for details [Install doc](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_EN.pdf)
