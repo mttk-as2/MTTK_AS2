@@ -62,7 +62,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-包含mongoDB运行环境的安装包  (只适用于64位windows) **因为FULL包含mongodb运行环境，所以包比较大。而github 单个文件最大只允许100M,所以我们把完整的压缩文件分成了2个，请下载全部的2个压缩文件后一起解压**
+包含mongoDB运行环境的安装包  (只适用于64位windows)
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
 不包含jdk和mongoDB运行环境的基础安装包 (此安装包需要自己安装jdk和mongoDB 运行环境)
@@ -103,13 +103,9 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 
 ```bash
 # 下载安装包
-# 下载好2个压缩包文件，并把它们一起解压
+# 进入/full 目录下
 
-# 解压FULL安装包 [\MTTK_AS2\full\FULL1.rar and FULL2.rar ]
-
-# 解压后，进入解压后的bin目录 [\mttk_as2\work\bin]
-
-# 安装jdk 安装到jdk 到 work\runtime\jre 目录下 可参考安装手册
+# 安装jdk 安装到jdk 到 mttk_as2\work\runtime\jre 目录下 可参考安装手册
 
 # 运行mongoDB环境
 mongoStartup.bat
@@ -129,9 +125,8 @@ startup.bat
 
 ```bash
 # 下载安装包
-# 下载好压缩包文件，并把它们解压
+# 进入/less 目录下
 
-# 解压项目目录 [\MTTK_AS2\less\LESS.rar]
 
 ```
 详情请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
