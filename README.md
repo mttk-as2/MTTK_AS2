@@ -104,7 +104,7 @@ The basic installation package of jdk and mongoDB running environment is not inc
 
 # Enter the / full directory
 
-# After decompression, enter the decompressed bin directory [\mttk_as2\work\bin]
+# enter the decompressed bin directory [\mttk_as2\work\bin]
 
 # Running mongoDB environment
 mongoStartup.bat
